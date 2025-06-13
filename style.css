@@ -1,0 +1,87 @@
+/*
+
+    Font Size
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 
+    74 / 86 / 98 
+
+    Spacing System 
+
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+    Line heights 
+
+
+    Colors
+    -Primary : 
+    -Tints :
+    -Shades : 
+    -Accents : 
+    -Greys : 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 50vh;
+}
+.primary-heading {
+  padding: 32rem;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.QandA-box {
+  font-size: 2rem;
+  line-height: 1;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.QandA {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+span {
+  color: #f28c28;
+}
+.question {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.answer {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  margin-bottom: 1.4rem;
+  padding: 1rem;
+}
+
+.list {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  margin-bottom: 1.4rem;
+  padding: 1rem;
+}
